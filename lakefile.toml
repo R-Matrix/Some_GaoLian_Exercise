@@ -1,0 +1,20 @@
+name = "Some_GaoLian_Exercise"
+version = "0.1.0"
+defaultTargets = ["some_gaolian_exercise"]
+
+[[lean_lib]]
+name = "SomeGaoLianExercise"
+
+[[lean_exe]]
+name = "some_gaolian_exercise"
+root = "Main"
+
+[leanOptions]
+pp.unicode.fun = true # pretty-prints `fun a ↦ b`
+autoImplicit = false
+relaxedAutoImplicit = false
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4"
+rev = "v4.21.0"
