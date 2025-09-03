@@ -21,6 +21,7 @@
 2011年 |全国高中数学联赛二试 B |T3 | 代数 |  :white_check_mark: | 2025-08-31
 2013年 |全国高中数学联赛二试 B |T1 | 数论 |  :white_check_mark: | 2025-09-01
 2013年 |全国高中数学联赛二试 B |T3 | 代数 |  :white_check_mark: | 2025-09-02
+2012年 |全国高中数学联赛二试 A |T2 | 数论 |  :white_check_mark: | 2025-09-03
 
 
 ----
@@ -62,3 +63,15 @@
 + ***2025/09/02***
 
     可以使用 `positivity` 这个 tactic 来进行正性 (或非负性) 的判断, 比较自动化. 在处理有关 `Real.sqrt` 的定理的条件时比较方便.
+
++ ***2025/09/03***
+
+    中国剩余定理 (Chinese Remainder Theorem , CRT) 的入门题目
+
+    练习使用自然数中的同余 `Nat.ModEq.xxx` 和 `Nat.modEq_xxx`
+
+    运用 `Nat.ordProj_xxx` 和 `Nat.ord_compl_xxx` 系列处理 $v_p(n)$ (`Nat.factorization`) 问题
+
+    以及使用中国剩余定理 (`Nat.chineseRemainder`) 及其一些定理
+
+    (CZW : 这题第一问都不会的可以转物理了)
